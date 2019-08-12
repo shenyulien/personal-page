@@ -1,0 +1,57 @@
+*{
+    /* 外距 */
+    margin: 0;
+    /* 內距 */
+    padding: 0;
+    /* 邊框:粗細 樣式(solid實心) 顏色 */
+    border: 0.5px solid rgba(255,0,0,0)
+}
+/* 圖片 */
+img{width: 400px;}
+/* 卡片設定 */
+#card{background-color:rgb(71, 65, 65);
+    color:#fff;
+    width: 800px;
+    
+    /* 外距 上 右 下 左(順時針) */
+    /* 水平置中 左右為auto (式用於區塊元素)*/
+    margin: 150px auto 30px auto;
+    /* 內距 上下 左右 */
+    padding: 100px 50px;
+    /* 邊框半徑圓角 */
+    border-radius: 5px;
+    /* 陰影 左右 上下 模糊 顏色 */
+    box-shadow: 0 7px 6px rgba(0,0,0,0.3);
+}
+/* 內容區塊 */
+#content{
+    /* div 為區塊:自己一行 */
+    /* 顯示模式 行內區塊 不會自己一行 且可以調整寬度 */
+    display:inline-block;
+    width: 380px;
+    /* 行內元素 垂直對齊 上 */
+    vertical-align: top;
+    margin-left: 10px;
+    
+}
+h1{
+    display: inline-block;
+    font-size:5em;
+    margin-top:8px;
+
+}
+h3{
+    display: inline-block;
+    margin-left:20px;
+}
+h5{
+    margin-top:30px
+}
+hr{
+    height: 1px;
+    background-color: #fff;
+    margin:30px 0px; 
+}
+/* 行高 */
+p{line-height: 1.5}
+
