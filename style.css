@@ -15,7 +15,7 @@ img{width: 400px;}
     
     /* 外距 上 右 下 左(順時針) */
     /* 水平置中 左右為auto (式用於區塊元素)*/
-    margin: 150px auto 30px auto;
+    margin: 150px auto 0px auto;
     /* 內距 上下 左右 */
     padding: 100px 50px;
     /* 邊框半徑圓角 */
@@ -43,9 +43,19 @@ h1{
 h3{
     display: inline-block;
     margin-left:20px;
+    background-color: rgb(134, 131, 131);
+    padding: 10px 10px;
+    border-radius: 5px;
+    
 }
 h5{
     margin-top:30px
+}
+h2{
+    text-align: center;
+    color:rgba(0,0,0,0.3);
+    font-size:11em;
+    padding: 1px 0px;
 }
 hr{
     height: 1px;
